@@ -2,7 +2,7 @@
 <GenerationInfo_G_C>
   <Options>
     <ProjectName>MDIO_Enet_S32K148</ProjectName>
-    <ProjectDirectory>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\</ProjectDirectory>
+    <ProjectDirectory>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\</ProjectDirectory>
     <ProjectMainModuleName>main</ProjectMainModuleName>
     <DestEventsDirectory>Sources\</DestEventsDirectory>
     <DestDriversSubDirectory>..\Generated_Code\</DestDriversSubDirectory>
@@ -18,57 +18,57 @@
         <Line>Generated_Code\phy_cfg.c</Line>
         <Line>Generated_Code\phy_cfg.h</Line>
       </GenExtraFiles>
-      <XtraAge0>1361609763</XtraAge0>
-      <XtraAge1>1361609763</XtraAge1>
+      <XtraAge0>1361658041</XtraAge0>
+      <XtraAge1>1361658041</XtraAge1>
       <GenExtraFileType1>4</GenExtraFileType1>
       <GenExtraFileType0>4</GenExtraFileType0>
       <GenLinkedFiles lines_count="46">
-        <Line>SDK\platform\devices\devassert.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\devassert.h</Line>
-        <Line>SDK\platform\devices\status.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\status.h</Line>
-        <Line>SDK\platform\devices\device_registers.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\device_registers.h</Line>
-        <Line>SDK\platform\devices\callbacks.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\callbacks.h</Line>
-        <Line>SDK\platform\devices\common\s32_core_cm4.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\common\s32_core_cm4.h</Line>
-        <Line>SDK\platform\devices\startup.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\startup.h</Line>
-        <Line>SDK\platform\devices\startup.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\startup.c</Line>
-        <Line>SDK\platform\devices\S32K148\startup\system_S32K148.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K148\startup\system_S32K148.h</Line>
-        <Line>SDK\platform\devices\S32K148\startup\system_S32K148.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K148\startup\system_S32K148.c</Line>
-        <Line>SDK\platform\devices\S32K148\include\S32K148_features.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K148\include\S32K148_features.h</Line>
-        <Line>SDK\platform\devices\S32K148\include\S32K148.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K148\include\S32K148.h</Line>
-        <Line>SDK\platform\drivers\src\phy\phy.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\phy\phy.c</Line>
-        <Line>SDK\platform\drivers\inc\phy.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\phy.h</Line>
-        <Line>SDK\platform\drivers\src\phy\phy_tja110x.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\phy\phy_tja110x.c</Line>
-        <Line>SDK\platform\drivers\inc\phy_tja110x.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\phy_tja110x.h</Line>
-        <Line>SDK\platform\drivers\src\phy\phy_generic.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\phy\phy_generic.c</Line>
-        <Line>SDK\platform\drivers\inc\phy_generic.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\phy_generic.h</Line>
-        <Line>SDK\platform\drivers\src\edma\edma_driver.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_driver.c</Line>
-        <Line>SDK\platform\drivers\src\edma\edma_hw_access.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_hw_access.c</Line>
-        <Line>SDK\platform\drivers\src\edma\edma_irq.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_irq.c</Line>
-        <Line>SDK\platform\drivers\src\edma\edma_hw_access.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_hw_access.h</Line>
-        <Line>SDK\platform\drivers\src\edma\edma_irq.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_irq.h</Line>
-        <Line>SDK\platform\drivers\inc\edma_driver.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\edma_driver.h</Line>
-        <Line>SDK\platform\drivers\src\enet\enet_driver.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\enet\enet_driver.c</Line>
-        <Line>SDK\platform\drivers\src\enet\enet_irq.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\enet\enet_irq.c</Line>
-        <Line>SDK\platform\drivers\src\enet\enet_hw_access.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\enet\enet_hw_access.c</Line>
-        <Line>SDK\platform\drivers\src\enet\enet_hw_access.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\enet\enet_hw_access.h</Line>
-        <Line>SDK\platform\drivers\inc\enet_driver.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\enet_driver.h</Line>
-        <Line>SDK\rtos\osif\osif.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\rtos\osif\osif.h</Line>
-        <Line>SDK\rtos\osif\osif_baremetal.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\rtos\osif\osif_baremetal.c</Line>
-        <Line>SDK\platform\drivers\src\pins\pins_driver.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_driver.c</Line>
-        <Line>SDK\platform\drivers\src\pins\pins_gpio_hw_access.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_gpio_hw_access.h</Line>
-        <Line>SDK\platform\drivers\inc\pins_driver.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\pins_driver.h</Line>
-        <Line>SDK\platform\drivers\src\pins\pins_port_hw_access.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_port_hw_access.c</Line>
-        <Line>SDK\platform\drivers\src\pins\pins_port_hw_access.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_port_hw_access.h</Line>
-        <Line>SDK\platform\drivers\src\clock\clock_manager.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\clock_manager.c</Line>
-        <Line>SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.c</Line>
-        <Line>SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.h</Line>
-        <Line>SDK\platform\drivers\src\clock\S32K1xx\pcc_hw_access.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\pcc_hw_access.h</Line>
-        <Line>SDK\platform\drivers\src\clock\S32K1xx\pmc_hw_access.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\pmc_hw_access.h</Line>
-        <Line>SDK\platform\drivers\src\clock\S32K1xx\scg_hw_access.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\scg_hw_access.h</Line>
-        <Line>SDK\platform\drivers\src\clock\S32K1xx\sim_hw_access.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\sim_hw_access.h</Line>
-        <Line>SDK\platform\drivers\src\clock\S32K1xx\smc_hw_access.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\smc_hw_access.h</Line>
-        <Line>SDK\platform\drivers\inc\clock_manager.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\clock_manager.h</Line>
-        <Line>SDK\platform\drivers\src\interrupt\interrupt_manager.c=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\interrupt\interrupt_manager.c</Line>
-        <Line>SDK\platform\drivers\inc\interrupt_manager.h=C:\NXP\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\interrupt_manager.h</Line>
+        <Line>SDK\platform\devices\devassert.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\devassert.h</Line>
+        <Line>SDK\platform\devices\status.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\status.h</Line>
+        <Line>SDK\platform\devices\device_registers.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\device_registers.h</Line>
+        <Line>SDK\platform\devices\callbacks.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\callbacks.h</Line>
+        <Line>SDK\platform\devices\common\s32_core_cm4.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\common\s32_core_cm4.h</Line>
+        <Line>SDK\platform\devices\startup.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\startup.h</Line>
+        <Line>SDK\platform\devices\startup.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\startup.c</Line>
+        <Line>SDK\platform\devices\S32K148\startup\system_S32K148.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K148\startup\system_S32K148.h</Line>
+        <Line>SDK\platform\devices\S32K148\startup\system_S32K148.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K148\startup\system_S32K148.c</Line>
+        <Line>SDK\platform\devices\S32K148\include\S32K148_features.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K148\include\S32K148_features.h</Line>
+        <Line>SDK\platform\devices\S32K148\include\S32K148.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\devices\S32K148\include\S32K148.h</Line>
+        <Line>SDK\platform\drivers\src\phy\phy.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\phy\phy.c</Line>
+        <Line>SDK\platform\drivers\inc\phy.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\phy.h</Line>
+        <Line>SDK\platform\drivers\src\phy\phy_tja110x.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\phy\phy_tja110x.c</Line>
+        <Line>SDK\platform\drivers\inc\phy_tja110x.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\phy_tja110x.h</Line>
+        <Line>SDK\platform\drivers\src\phy\phy_generic.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\phy\phy_generic.c</Line>
+        <Line>SDK\platform\drivers\inc\phy_generic.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\phy_generic.h</Line>
+        <Line>SDK\platform\drivers\src\edma\edma_driver.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_driver.c</Line>
+        <Line>SDK\platform\drivers\src\edma\edma_hw_access.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_hw_access.c</Line>
+        <Line>SDK\platform\drivers\src\edma\edma_irq.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_irq.c</Line>
+        <Line>SDK\platform\drivers\src\edma\edma_hw_access.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_hw_access.h</Line>
+        <Line>SDK\platform\drivers\src\edma\edma_irq.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\edma\edma_irq.h</Line>
+        <Line>SDK\platform\drivers\inc\edma_driver.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\edma_driver.h</Line>
+        <Line>SDK\platform\drivers\src\enet\enet_driver.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\enet\enet_driver.c</Line>
+        <Line>SDK\platform\drivers\src\enet\enet_irq.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\enet\enet_irq.c</Line>
+        <Line>SDK\platform\drivers\src\enet\enet_hw_access.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\enet\enet_hw_access.c</Line>
+        <Line>SDK\platform\drivers\src\enet\enet_hw_access.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\enet\enet_hw_access.h</Line>
+        <Line>SDK\platform\drivers\inc\enet_driver.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\enet_driver.h</Line>
+        <Line>SDK\rtos\osif\osif.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\rtos\osif\osif.h</Line>
+        <Line>SDK\rtos\osif\osif_baremetal.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\rtos\osif\osif_baremetal.c</Line>
+        <Line>SDK\platform\drivers\src\pins\pins_driver.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_driver.c</Line>
+        <Line>SDK\platform\drivers\src\pins\pins_gpio_hw_access.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_gpio_hw_access.h</Line>
+        <Line>SDK\platform\drivers\inc\pins_driver.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\pins_driver.h</Line>
+        <Line>SDK\platform\drivers\src\pins\pins_port_hw_access.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_port_hw_access.c</Line>
+        <Line>SDK\platform\drivers\src\pins\pins_port_hw_access.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\pins\pins_port_hw_access.h</Line>
+        <Line>SDK\platform\drivers\src\clock\clock_manager.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\clock_manager.c</Line>
+        <Line>SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.c</Line>
+        <Line>SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.h</Line>
+        <Line>SDK\platform\drivers\src\clock\S32K1xx\pcc_hw_access.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\pcc_hw_access.h</Line>
+        <Line>SDK\platform\drivers\src\clock\S32K1xx\pmc_hw_access.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\pmc_hw_access.h</Line>
+        <Line>SDK\platform\drivers\src\clock\S32K1xx\scg_hw_access.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\scg_hw_access.h</Line>
+        <Line>SDK\platform\drivers\src\clock\S32K1xx\sim_hw_access.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\sim_hw_access.h</Line>
+        <Line>SDK\platform\drivers\src\clock\S32K1xx\smc_hw_access.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\clock\S32K1xx\smc_hw_access.h</Line>
+        <Line>SDK\platform\drivers\inc\clock_manager.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\clock_manager.h</Line>
+        <Line>SDK\platform\drivers\src\interrupt\interrupt_manager.c=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\src\interrupt\interrupt_manager.c</Line>
+        <Line>SDK\platform\drivers\inc\interrupt_manager.h=C:\nxp\S32DS_ARM_v2018.R1\eclipse\ProcessorExpert\..\..\S32DS\S32SDK_S32K14x_EAR_0.8.6\platform\drivers\inc\interrupt_manager.h</Line>
       </GenLinkedFiles>
       <GenEventModules lines_count="1">
         <Line>Events</Line>
@@ -100,8 +100,8 @@
     <GenComponentVersion>01.197</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1361609763</HeaderAge>
-    <CodeAge>1361609763</CodeAge>
+    <HeaderAge>1361658041</HeaderAge>
+    <CodeAge>1361658041</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>3</GenNumMethods>
     <SystemInit>true</SystemInit>
@@ -115,17 +115,17 @@
     <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenExtraFilesCount>11</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\devices\S32K148\include\S32K148.h</ExtraFile0>
-    <ExtraFile1>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\devices\S32K148\include\S32K148_features.h</ExtraFile1>
-    <ExtraFile2>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\devices\S32K148\startup\system_S32K148.c</ExtraFile2>
-    <ExtraFile3>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\devices\S32K148\startup\system_S32K148.h</ExtraFile3>
-    <ExtraFile4>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\devices\startup.c</ExtraFile4>
-    <ExtraFile5>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\devices\startup.h</ExtraFile5>
-    <ExtraFile6>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\devices\common\s32_core_cm4.h</ExtraFile6>
-    <ExtraFile7>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\devices\callbacks.h</ExtraFile7>
-    <ExtraFile8>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\devices\device_registers.h</ExtraFile8>
-    <ExtraFile9>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\devices\status.h</ExtraFile9>
-    <ExtraFile10>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\devices\devassert.h</ExtraFile10>
+    <ExtraFile0>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\devices\S32K148\include\S32K148.h</ExtraFile0>
+    <ExtraFile1>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\devices\S32K148\include\S32K148_features.h</ExtraFile1>
+    <ExtraFile2>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\devices\S32K148\startup\system_S32K148.c</ExtraFile2>
+    <ExtraFile3>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\devices\S32K148\startup\system_S32K148.h</ExtraFile3>
+    <ExtraFile4>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\devices\startup.c</ExtraFile4>
+    <ExtraFile5>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\devices\startup.h</ExtraFile5>
+    <ExtraFile6>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\devices\common\s32_core_cm4.h</ExtraFile6>
+    <ExtraFile7>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\devices\callbacks.h</ExtraFile7>
+    <ExtraFile8>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\devices\device_registers.h</ExtraFile8>
+    <ExtraFile9>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\devices\status.h</ExtraFile9>
+    <ExtraFile10>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\devices\devassert.h</ExtraFile10>
   </CpuID_1>
   <ComponentID_4>
     <Generated>true</Generated>
@@ -133,8 +133,8 @@
     <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1361609763</HeaderAge>
-    <CodeAge>1361609763</CodeAge>
+    <HeaderAge>1361658041</HeaderAge>
+    <CodeAge>1361658041</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>16</GenNumMethods>
     <CLOCK_SYS_Init>true</CLOCK_SYS_Init>
@@ -159,15 +159,15 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>9</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\inc\clock_manager.h</ExtraFile0>
-    <ExtraFile1>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\S32K1xx\smc_hw_access.h</ExtraFile1>
-    <ExtraFile2>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\S32K1xx\sim_hw_access.h</ExtraFile2>
-    <ExtraFile3>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\S32K1xx\scg_hw_access.h</ExtraFile3>
-    <ExtraFile4>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\S32K1xx\pmc_hw_access.h</ExtraFile4>
-    <ExtraFile5>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\S32K1xx\pcc_hw_access.h</ExtraFile5>
-    <ExtraFile6>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.h</ExtraFile6>
-    <ExtraFile7>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.c</ExtraFile7>
-    <ExtraFile8>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\clock_manager.c</ExtraFile8>
+    <ExtraFile0>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\inc\clock_manager.h</ExtraFile0>
+    <ExtraFile1>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\S32K1xx\smc_hw_access.h</ExtraFile1>
+    <ExtraFile2>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\S32K1xx\sim_hw_access.h</ExtraFile2>
+    <ExtraFile3>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\S32K1xx\scg_hw_access.h</ExtraFile3>
+    <ExtraFile4>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\S32K1xx\pmc_hw_access.h</ExtraFile4>
+    <ExtraFile5>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\S32K1xx\pcc_hw_access.h</ExtraFile5>
+    <ExtraFile6>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.h</ExtraFile6>
+    <ExtraFile7>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\S32K1xx\clock_S32K1xx.c</ExtraFile7>
+    <ExtraFile8>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\clock\clock_manager.c</ExtraFile8>
   </ComponentID_4>
   <ComponentID_10>
     <Generated>true</Generated>
@@ -199,8 +199,8 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\inc\interrupt_manager.h</ExtraFile0>
-    <ExtraFile1>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\interrupt\interrupt_manager.c</ExtraFile1>
+    <ExtraFile0>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\inc\interrupt_manager.h</ExtraFile0>
+    <ExtraFile1>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\interrupt\interrupt_manager.c</ExtraFile1>
   </ComponentID_10>
   <ComponentID_2>
     <Generated>true</Generated>
@@ -208,8 +208,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>1.4</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1361609763</HeaderAge>
-    <CodeAge>1361609763</CodeAge>
+    <HeaderAge>1361658041</HeaderAge>
+    <CodeAge>1361658041</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>25</GenNumMethods>
     <PINS_DRV_Init>true</PINS_DRV_Init>
@@ -243,11 +243,11 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>5</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\pins\pins_port_hw_access.h</ExtraFile0>
-    <ExtraFile1>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\pins\pins_port_hw_access.c</ExtraFile1>
-    <ExtraFile2>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\inc\pins_driver.h</ExtraFile2>
-    <ExtraFile3>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\pins\pins_gpio_hw_access.h</ExtraFile3>
-    <ExtraFile4>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\pins\pins_driver.c</ExtraFile4>
+    <ExtraFile0>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\pins\pins_port_hw_access.h</ExtraFile0>
+    <ExtraFile1>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\pins\pins_port_hw_access.c</ExtraFile1>
+    <ExtraFile2>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\inc\pins_driver.h</ExtraFile2>
+    <ExtraFile3>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\pins\pins_gpio_hw_access.h</ExtraFile3>
+    <ExtraFile4>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\pins\pins_driver.c</ExtraFile4>
   </ComponentID_2>
   <ComponentID_13>
     <Generated>true</Generated>
@@ -275,8 +275,8 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\rtos\osif\osif_baremetal.c</ExtraFile0>
-    <ExtraFile1>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\rtos\osif\osif.h</ExtraFile1>
+    <ExtraFile0>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\rtos\osif\osif_baremetal.c</ExtraFile0>
+    <ExtraFile1>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\rtos\osif\osif.h</ExtraFile1>
   </ComponentID_13>
   <ComponentID_22>
     <Generated>true</Generated>
@@ -284,8 +284,8 @@
     <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1361609763</HeaderAge>
-    <CodeAge>1361609763</CodeAge>
+    <HeaderAge>1361658041</HeaderAge>
+    <CodeAge>1361658041</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>28</GenNumMethods>
     <ENET_DRV_GetDefaultConfig>true</ENET_DRV_GetDefaultConfig>
@@ -322,11 +322,11 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>5</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\inc\enet_driver.h</ExtraFile0>
-    <ExtraFile1>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\enet\enet_hw_access.h</ExtraFile1>
-    <ExtraFile2>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\enet\enet_hw_access.c</ExtraFile2>
-    <ExtraFile3>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\enet\enet_irq.c</ExtraFile3>
-    <ExtraFile4>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\enet\enet_driver.c</ExtraFile4>
+    <ExtraFile0>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\inc\enet_driver.h</ExtraFile0>
+    <ExtraFile1>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\enet\enet_hw_access.h</ExtraFile1>
+    <ExtraFile2>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\enet\enet_hw_access.c</ExtraFile2>
+    <ExtraFile3>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\enet\enet_irq.c</ExtraFile3>
+    <ExtraFile4>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\enet\enet_driver.c</ExtraFile4>
   </ComponentID_22>
   <ComponentID_24>
     <Generated>true</Generated>
@@ -334,8 +334,8 @@
     <GenComponentVersion>SDK_S32K14x_09</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1361609763</HeaderAge>
-    <CodeAge>1361609763</CodeAge>
+    <HeaderAge>1361658041</HeaderAge>
+    <CodeAge>1361658041</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>32</GenNumMethods>
     <EDMA_DRV_Init>true</EDMA_DRV_Init>
@@ -376,12 +376,12 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>6</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\inc\edma_driver.h</ExtraFile0>
-    <ExtraFile1>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\edma\edma_irq.h</ExtraFile1>
-    <ExtraFile2>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\edma\edma_hw_access.h</ExtraFile2>
-    <ExtraFile3>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\edma\edma_irq.c</ExtraFile3>
-    <ExtraFile4>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\edma\edma_hw_access.c</ExtraFile4>
-    <ExtraFile5>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\edma\edma_driver.c</ExtraFile5>
+    <ExtraFile0>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\inc\edma_driver.h</ExtraFile0>
+    <ExtraFile1>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\edma\edma_irq.h</ExtraFile1>
+    <ExtraFile2>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\edma\edma_hw_access.h</ExtraFile2>
+    <ExtraFile3>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\edma\edma_irq.c</ExtraFile3>
+    <ExtraFile4>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\edma\edma_hw_access.c</ExtraFile4>
+    <ExtraFile5>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\edma\edma_driver.c</ExtraFile5>
   </ComponentID_24>
   <ComponentID_28>
     <Generated>true</Generated>
@@ -420,14 +420,14 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>8</GenExtraFilesCount>
-    <ExtraFile0>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\inc\phy_generic.h</ExtraFile0>
-    <ExtraFile1>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\phy\phy_generic.c</ExtraFile1>
-    <ExtraFile2>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\inc\phy_tja110x.h</ExtraFile2>
-    <ExtraFile3>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\phy\phy_tja110x.c</ExtraFile3>
+    <ExtraFile0>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\inc\phy_generic.h</ExtraFile0>
+    <ExtraFile1>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\phy\phy_generic.c</ExtraFile1>
+    <ExtraFile2>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\inc\phy_tja110x.h</ExtraFile2>
+    <ExtraFile3>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\phy\phy_tja110x.c</ExtraFile3>
     <ExtraFile4>Generated_Code\phy_cfg.c</ExtraFile4>
     <ExtraFile5>Generated_Code\phy_cfg.h</ExtraFile5>
-    <ExtraFile6>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\inc\phy.h</ExtraFile6>
-    <ExtraFile7>C:\Users\nxf65522\workspaceS32DS.ARM.2018.R1\MDIO_Enet_S32K148\MDIO_Enet_S32K148\SDK\platform\drivers\src\phy\phy.c</ExtraFile7>
+    <ExtraFile6>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\inc\phy.h</ExtraFile6>
+    <ExtraFile7>E:\User\Rainer\Develop\12_GitHub\NXP\MDIO_Enet_S32K148\SDK\platform\drivers\src\phy\phy.c</ExtraFile7>
   </ComponentID_28>
   <UsedSrcFiles>
     <SrcFile0>Drivers\interrupt_manager.src=-1</SrcFile0>

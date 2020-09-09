@@ -43,13 +43,15 @@ volatile int exit_code = 0;
 #ifdef EVB
 	#define GPIO_PORT	PTE
 	#define PCC_CLOCK	PCC_PORTE_CLOCK
-	#define LED1		21U
-	#define LED2		22U
+	#define LED_RED		21U
+	#define LED_GREEN	22U
+	#define LED_BLUE	23U
 #else
 	#define GPIO_PORT	PTC
 	#define PCC_CLOCK	PCC_PORTC_CLOCK
-	#define LED1		0U
-	#define LED2		1U
+	#define LED_RED		0U
+	#define LED_GREEN	1U
+	#define LED_BLUE	2U	// not sure if this is correct!
 #endif
 
 typedef struct {
@@ -123,8 +125,8 @@ void rx_callback(uint8_t instance, enet_event_t event)
 			(void)frame->payload;
 
 			/* We successfully received a frame -> turn on LED 2 */
-			PINS_DRV_ClearPins(GPIO_PORT, (1 << LED1));
-			PINS_DRV_SetPins(GPIO_PORT, (1 << LED2));
+			PINS_DRV_ClearPins(GPIO_PORT, (1 << LED_RED));
+			PINS_DRV_SetPins(GPIO_PORT, (1 << LED_GREEN));
 
 			ENET_DRV_ProvideRxBuff(INST_ETHERNET1, &buff);
 		}
@@ -163,8 +165,8 @@ int main(void)
   PINS_DRV_Init(NUM_OF_CONFIGURED_PINS, g_pin_mux_InitConfigArr);
 
   /* Turn off LED 1 and LED 2 */
-  PINS_DRV_ClearPins(GPIO_PORT, (1 << LED1));
-  PINS_DRV_ClearPins(GPIO_PORT, (1 << LED2));
+  PINS_DRV_ClearPins(GPIO_PORT, (1 << LED_RED));
+  PINS_DRV_ClearPins(GPIO_PORT, (1 << LED_GREEN));
 
   /* Disable MPU */
   MPU->CESR = 0x00815200;
@@ -214,23 +216,25 @@ int main(void)
 	  state = PHY_GetLinkStatus(0, &linkStatus);
 	  if (linkStatus)
 	  {
-		  PINS_DRV_ClearPins(GPIO_PORT, (1 << LED1));
-		  PINS_DRV_SetPins(GPIO_PORT, (1 << LED2));
+		  PINS_DRV_ClearPins(GPIO_PORT, (1 << LED_RED));
+		  PINS_DRV_SetPins(GPIO_PORT, (1 << LED_GREEN));
 	  }
 	  else
 	  {
-	      PINS_DRV_ClearPins(GPIO_PORT, (1 << LED2));
-	      PINS_DRV_SetPins(GPIO_PORT, (1 << LED1));
+	      PINS_DRV_ClearPins(GPIO_PORT, (1 << LED_GREEN));
+	      PINS_DRV_SetPins(GPIO_PORT, (1 << LED_RED));
 	  }
 
 	  /* We are about to send a frame */
 	  if (linkStatus)
 	  {
+		  PINS_DRV_SetPins(GPIO_PORT, (1 << LED_BLUE));
 		  state = ENET_DRV_SendFrame(INST_ETHERNET1, &txBuff);
+
 		  if (state != STATUS_SUCCESS)
 		  {
-			  PINS_DRV_SetPins(GPIO_PORT, (1 << LED1));
-			  PINS_DRV_SetPins(GPIO_PORT, (1 << LED2));
+			  PINS_DRV_SetPins(GPIO_PORT, (1 << LED_RED));
+			  PINS_DRV_ClearPins(GPIO_PORT, (1 << LED_GREEN));
 		  }
 
 		  // verify transmission state
@@ -252,7 +256,9 @@ int main(void)
 			  ENET_DRV_ProvideRxBuff(INST_ETHERNET1, &rxBuff);
 		  }
 	  }
-      delay(700000);	// 1000 ms
+      delay(100000);	// 1000 ms
+      PINS_DRV_ClearPins(GPIO_PORT, (1 << LED_BLUE));
+      delay(480000);	// 1000 ms
   }
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/
