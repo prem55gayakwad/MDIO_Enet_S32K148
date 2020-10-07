@@ -1,5 +1,5 @@
 # 1 "../Sources/main.c"
-# 1 "C:\\Users\\nxf65522\\workspaceS32DS.ARM.2018.R1\\tja1100_mdio_s32k148\\Debug_RAM//"
+# 1 "C:\\Users\\nxf65522\\workspaceS32DS.ARM.2018.R1\\MDIO_Enet_S32K148\\MDIO_Enet_S32K148\\Debug_RAM//"
 # 1 "<built-in>"
 #define __STDC__ 1
 #define __STDC_VERSION__ 199901L
@@ -365,8 +365,8 @@
 #define DEV_ERROR_DETECT 1
 # 1 "../Sources/main.c"
 # 21 "../Sources/main.c"
-# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h" 1
-# 51 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h"
+# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h" 1
+# 51 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h"
 #define Cpu_H 
 
 
@@ -14783,7 +14783,7 @@ static inline void DevAssert(volatile _Bool x)
 }
 #define DEV_ASSERT(x) DevAssert(x)
 # 179 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/device_registers.h" 2
-# 59 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h" 2
+# 59 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h" 2
 
 # 1 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h" 1
 # 20 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
@@ -15733,7 +15733,7 @@ clock_manager_callback_user_config_t* CLOCK_SYS_GetErrorCallback(void);
 # 254 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/clock_manager.h"
 status_t CLOCK_SYS_GetFreq(clock_names_t clockName,
                            uint32_t *frequency);
-# 61 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h" 2
+# 61 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h" 2
 # 1 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h" 1
 # 19 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 #define INTERRUPT_MANAGER_H 
@@ -15781,7 +15781,7 @@ void INT_SYS_SetPending(IRQn_Type irqNumber);
 uint32_t INT_SYS_GetPending(IRQn_Type irqNumber);
 # 210 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/interrupt_manager.h"
 uint32_t INT_SYS_GetActive(IRQn_Type irqNumber);
-# 62 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h" 2
+# 62 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h" 2
 # 1 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/enet_driver.h" 1
 # 19 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/enet_driver.h"
 #define ENET_H 
@@ -17481,7 +17481,7 @@ void ENET_DRV_TimerSetCompare(uint8_t instance,
 void ENET_DRV_TimerGetCapture(uint8_t instance,
                               uint8_t channel,
                               uint32_t *capture);
-# 63 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h" 2
+# 63 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h" 2
 # 1 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h" 1
 # 36 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 #define EDMA_DRIVER_H 
@@ -17873,7 +17873,7 @@ status_t EDMA_DRV_InstallCallback(uint8_t virtualChannel,
                                   void *parameter);
 # 944 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/edma_driver.h"
 edma_chn_status_t EDMA_DRV_GetChannelStatus(uint8_t virtualChannel);
-# 64 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h" 2
+# 64 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h" 2
 # 1 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/phy.h" 1
 # 19 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/phy.h"
 #define PHY_H 
@@ -18088,22 +18088,22 @@ status_t PHY_Write(uint8_t phy, uint8_t registerAddr, uint16_t value);
 status_t PHY_Read(uint8_t phy, uint8_t registerAddr, uint16_t *value);
 # 323 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/phy.h"
 status_t PHY_RMR(uint8_t phy, uint8_t registerAddr, uint16_t value, uint16_t mask);
-# 65 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h" 2
-# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/phy_cfg.h" 1
-# 59 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/phy_cfg.h"
+# 65 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h" 2
+# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/phy_cfg.h" 1
+# 59 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/phy_cfg.h"
 #define PHY_CFG_H 
 
 
 
 
-# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/ethernet1.h" 1
-# 66 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/ethernet1.h"
+# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/ethernet1.h" 1
+# 66 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/ethernet1.h"
 #define ethernet1_H 
 
 
 
-# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/clockMan1.h" 1
-# 54 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/clockMan1.h"
+# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/clockMan1.h" 1
+# 54 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/clockMan1.h"
 #define clockMan1_H 
 
 
@@ -18111,9 +18111,9 @@ status_t PHY_RMR(uint8_t phy, uint8_t registerAddr, uint16_t value, uint16_t mas
 
 
 
-# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h" 1
-# 62 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/clockMan1.h" 2
-# 84 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/clockMan1.h"
+# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h" 1
+# 62 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/clockMan1.h" 2
+# 84 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/clockMan1.h"
 extern clock_manager_user_config_t clockMan1_InitConfig0;
 
 
@@ -18134,7 +18134,7 @@ extern peripheral_clock_config_t peripheralClockConfig0[];
 
 
 extern clock_manager_callback_user_config_t *g_clockManCallbacksArr[];
-# 71 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/ethernet1.h" 2
+# 71 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/ethernet1.h" 2
 
 
 
@@ -18150,7 +18150,7 @@ extern const enet_config_t ethernet1_InitConfig0;
 
 
 extern enet_buffer_config_t ethernet1_buffConfig0;
-# 65 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/phy_cfg.h" 2
+# 65 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/phy_cfg.h" 2
 
 
 
@@ -18164,19 +18164,19 @@ extern phy_driver_t* phyDrivers[(1U)];
 
 void link_up(uint8_t phy);
 void link_down(uint8_t phy);
-# 66 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h" 2
+# 66 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h" 2
 # 1 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/phy_generic.h" 1
 # 19 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/phy_generic.h"
 #define PHY_GENERIC_H 
 # 28 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/phy_generic.h"
 extern phy_driver_t PHY_driver_generic;
-# 67 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h" 2
+# 67 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h" 2
 # 1 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/phy_tja110x.h" 1
 # 19 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/phy_tja110x.h"
 #define PHY_TJA110X_H 
 # 28 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/phy_tja110x.h"
 extern phy_driver_t PHY_driver_tja110x;
-# 68 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h" 2
+# 68 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h" 2
 # 1 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K148/startup/system_S32K148.h" 1
 # 42 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K148/startup/system_S32K148.h"
 #define SYSTEM_S32K148_H_ 
@@ -18220,12 +18220,12 @@ void SystemCoreClockUpdate(void);
 
 
 void SystemSoftwareReset(void);
-# 69 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h" 2
+# 69 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h" 2
 
 
 
-# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/pin_mux.h" 1
-# 2254 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/pin_mux.h"
+# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/pin_mux.h" 1
+# 2254 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/pin_mux.h"
 #define pin_mux_H 
 
 
@@ -18459,17 +18459,17 @@ void PINS_DRV_TogglePins(GPIO_Type * const base,
                          pins_channel_type_t pins);
 # 1134 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/pins_driver.h"
 pins_channel_type_t PINS_DRV_ReadPins(const GPIO_Type * const base);
-# 2258 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/pin_mux.h" 2
+# 2258 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/pin_mux.h" 2
 
 
 #define NUM_OF_CONFIGURED_PINS 128
 
 
 extern pin_settings_config_t g_pin_mux_InitConfigArr[128];
-# 73 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h" 2
+# 73 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h" 2
 
-# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/dmaController1.h" 1
-# 80 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/dmaController1.h"
+# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/dmaController1.h" 1
+# 80 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/dmaController1.h"
 #define dmaController1_H 
 
 
@@ -18499,19 +18499,19 @@ extern edma_channel_config_t dmaController1Chn0_Config;
 
 
 extern const edma_channel_config_t * const edmaChnConfigArray[1U];
-# 75 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h" 2
+# 75 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h" 2
 # 22 "../Sources/main.c" 2
-# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/pin_mux.h" 1
+# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/pin_mux.h" 1
 # 23 "../Sources/main.c" 2
-# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/ethernet1.h" 1
+# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/ethernet1.h" 1
 # 24 "../Sources/main.c" 2
-# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/phy_cfg.h" 1
+# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/phy_cfg.h" 1
 # 25 "../Sources/main.c" 2
 
 
-# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/dmaController1.h" 1
+# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/dmaController1.h" 1
 # 28 "../Sources/main.c" 2
-# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/clockMan1.h" 1
+# 1 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/clockMan1.h" 1
 # 29 "../Sources/main.c" 2
 
 volatile int exit_code = 0;
@@ -19388,6 +19388,7 @@ void delay(volatile int cycles)
     while(cycles--);
 }
 
+
 void copyBuff(uint8_t *dest, uint8_t *src, uint32_t len)
 {
  uint32_t i;
@@ -19434,7 +19435,7 @@ void rx_callback(uint8_t instance, enet_event_t event)
 
 int main(void)
 {
-# 153 "../Sources/main.c"
+# 154 "../Sources/main.c"
   CLOCK_SYS_Init(g_clockManConfigsArr, 1U,
                  g_clockManCallbacksArr, 0U);
   CLOCK_SYS_UpdateConfiguration(0U, CLOCK_MANAGER_POLICY_AGREEMENT);
@@ -19463,8 +19464,7 @@ int main(void)
   uint8_t i;
 
 
-  TxFrame.etherType = 0x0800;
-
+  TxFrame.etherType = 0x0608;
   for (i = 0; i < 64U; i++)
   {
    TxFrame.payload[i] = i;
@@ -19486,7 +19486,7 @@ int main(void)
   state = PHY_Init(0);
 
   _Bool linkStatus;
-# 212 "../Sources/main.c"
+# 216 "../Sources/main.c"
   while (1)
   {
 

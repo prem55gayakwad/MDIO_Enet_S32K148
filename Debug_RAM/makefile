@@ -40,52 +40,52 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-tja1100_mdio_s32k148.elf \
+MDIO_Enet_S32K148.elf \
 
 EXECUTABLES_QUOTED += \
-"tja1100_mdio_s32k148.elf" \
+"MDIO_Enet_S32K148.elf" \
 
 EXECUTABLES_OS_FORMAT += \
-tja1100_mdio_s32k148.elf \
+MDIO_Enet_S32K148.elf \
 
 SECONDARY_SIZE += \
-tja1100_mdio_s32k148.siz \
-tja1100_mdio_s32k148.siz \
+MDIO_Enet_S32K148.siz \
+MDIO_Enet_S32K148.siz \
 
 SECONDARY_SIZE_QUOTED += \
-"tja1100_mdio_s32k148.siz" \
-"tja1100_mdio_s32k148.siz" \
+"MDIO_Enet_S32K148.siz" \
+"MDIO_Enet_S32K148.siz" \
 
 SECONDARY_SIZE_OS_FORMAT += \
-tja1100_mdio_s32k148.siz \
-tja1100_mdio_s32k148.siz \
+MDIO_Enet_S32K148.siz \
+MDIO_Enet_S32K148.siz \
 
 SECONDARY_SIZE += \
-tja1100_mdio_s32k148.siz \
-tja1100_mdio_s32k148.siz \
+MDIO_Enet_S32K148.siz \
+MDIO_Enet_S32K148.siz \
 
 SECONDARY_SIZE_QUOTED += \
-"tja1100_mdio_s32k148.siz" \
-"tja1100_mdio_s32k148.siz" \
+"MDIO_Enet_S32K148.siz" \
+"MDIO_Enet_S32K148.siz" \
 
 SECONDARY_SIZE_OS_FORMAT += \
-tja1100_mdio_s32k148.siz \
-tja1100_mdio_s32k148.siz \
+MDIO_Enet_S32K148.siz \
+MDIO_Enet_S32K148.siz \
 
 
 # All Target
-all: warning-messages explicit-dependencies tja1100_mdio_s32k148.elf secondary-outputs
+all: warning-messages explicit-dependencies MDIO_Enet_S32K148.elf secondary-outputs
 
 # Tool invocations
-tja1100_mdio_s32k148.elf: $(OBJS) C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K148/linker/gcc/S32K148_256_ram.ld $(USER_OBJS)
+MDIO_Enet_S32K148.elf: $(OBJS) C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K148/linker/gcc/S32K148_256_ram.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Executing target #26 $@'
 	@echo 'Invoking: Standard S32DS C Linker'
-	arm-none-eabi-gcc -o "tja1100_mdio_s32k148.elf" "@tja1100_mdio_s32k148.args"  $(USER_OBJS_QUOTED) 
+	arm-none-eabi-gcc -o "MDIO_Enet_S32K148.elf" "@MDIO_Enet_S32K148.args"  $(USER_OBJS_QUOTED) 
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-tja1100_mdio_s32k148.siz: $(EXECUTABLES)
+MDIO_Enet_S32K148.siz: $(EXECUTABLES)
 	@echo 'Executing target #27 $@'
 	@echo 'Invoking: Standard S32DS Print Size'
 	arm-none-eabi-size --format=berkeley $(EXECUTABLES)

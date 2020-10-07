@@ -38,8 +38,8 @@
       <File Name="SDK/platform/drivers/src/clock/S32K1xx/scg_hw_access.h" FileDate="2018-03-26, 12:12:02" FileAge="1522059122000" FileType="262144" />
       <File Name="Generated_Code/dmaController1.h" FileDate="2020-09-08, 16:33:07" FileAge="1599575587561" FileType="45637" CompNumb="24" />
       <File Name="SDK/platform/drivers/src/edma/edma_driver.c" FileDate="2018-03-26, 12:12:02" FileAge="1522059122000" FileType="262144" />
-      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2018-03-26, 12:12:02" FileAge="1522059122000" FileType="262144" />
       <File Name="SDK/platform/drivers/inc/phy_generic.h" FileDate="2018-03-26, 12:12:02" FileAge="1522059122000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2018-03-26, 12:12:02" FileAge="1522059122000" FileType="262144" />
       <File Name="SDK/platform/drivers/inc/phy_tja110x.h" FileDate="2018-03-26, 12:12:02" FileAge="1522059122000" FileType="262144" />
       <File Name="SDK/platform/devices/devassert.h" FileDate="2018-03-26, 12:12:00" FileAge="1522059120000" FileType="262144" />
       <File Name="Generated_Code/dmaController1.c" FileDate="2020-09-08, 16:33:07" FileAge="1599575587541" FileType="45637" CompNumb="24" />
@@ -77,7 +77,7 @@
       <File Name="SDK/platform/drivers/inc/phy.h" FileDate="2018-03-26, 12:12:02" FileAge="1522059122000" FileType="262144" />
       <File Name="Generated_Code/Cpu.c" FileDate="2020-09-08, 16:33:07" FileAge="1599575587526" FileType="45637" CompNumb="1" />
       <File Name="SDK/platform/drivers/src/enet/enet_hw_access.h" FileDate="2018-03-26, 12:12:02" FileAge="1522059122000" FileType="262144" />
-      <File Name="Sources/main.c" FileDate="2020-09-08, 15:33:19" FileAge="1599571999505" FileType="128" />
+      <File Name="Sources/main.c" FileDate="2020-09-23, 16:31:55" FileAge="1600871515849" FileType="128" />
       <File Name="SDK/platform/devices/S32K148/include/S32K148.h" FileDate="2018-03-26, 12:12:02" FileAge="1522059122000" FileType="262144" />
       <File Name="SDK/platform/devices/S32K148/include/S32K148_features.h" FileDate="2018-03-26, 12:12:02" FileAge="1522059122000" FileType="262144" />
       <File Name="SDK/platform/drivers/src/clock/S32K1xx/pmc_hw_access.h" FileDate="2018-03-26, 12:12:02" FileAge="1522059122000" FileType="262144" />
@@ -85,5 +85,5 @@
       <File Name="SDK/platform/drivers/src/enet/enet_driver.c" FileDate="2018-03-26, 12:12:02" FileAge="1522059122000" FileType="262144" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>1</CodeGenReference>
+  <CodeGenReference>11</CodeGenReference>
 </CodeGenerationInfo>

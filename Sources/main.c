@@ -93,6 +93,7 @@ void delay(volatile int cycles)
     while(cycles--);
 }
 
+
 void copyBuff(uint8_t *dest, uint8_t *src, uint32_t len)
 {
 	uint32_t i;
@@ -178,8 +179,8 @@ int main(void)
   uint8_t i;
 
 
-  TxFrame.etherType = 0x0800;	// EtherType LLC
-  for (i = 0; i < 64U; i++)
+  TxFrame.etherType = 0x0608;	// EtherType Audio Video Transport Protocol (AVTP)
+  for (i = 0; i < 64U; i++)      //   1234-->3412
   {
 	  TxFrame.payload[i] = i;
   }
@@ -201,7 +202,11 @@ int main(void)
 
   bool linkStatus;
 
-
+  // 0x0800	Internet Protocol version 4 (IPv4)
+//  0x22F0;	// EtherType Audio Video Transport Protocol (AVTP)
+//  0x0806	Address Resolution Protocol (ARP)
+//  0x86DD	Internet Protocol Version 6 (IPv6)
+//  0x0600 tcp
   /* Infinite loop:
    * 	- Send frames
    * 	- Verify LinkStatus

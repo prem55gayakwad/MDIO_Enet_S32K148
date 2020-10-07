@@ -116,14 +116,14 @@ delay:
 	.type	copyBuff, %function
 copyBuff:
 .LFB4:
-	.loc 1 97 0
+	.loc 1 98 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	@ link register save eliminated.
-	.loc 1 100 0
+	.loc 1 101 0
 	cbz	r2, .L19
-	.loc 1 97 0
+	.loc 1 98 0
 	push	{r4}
 	.cfi_def_cfa_offset 4
 	.cfi_offset 4, -4
@@ -131,13 +131,13 @@ copyBuff:
 	subs	r0, r0, #1
 	add	r1, r1, r2
 .L15:
-	.loc 1 102 0 discriminator 3
+	.loc 1 103 0 discriminator 3
 	ldrb	r4, [r3], #1	@ zero_extendqisi2
 	strb	r4, [r0, #1]!
-	.loc 1 100 0 discriminator 3
+	.loc 1 101 0 discriminator 3
 	cmp	r3, r1
 	bne	.L15
-	.loc 1 104 0
+	.loc 1 105 0
 	ldr	r4, [sp], #4
 	.cfi_restore 4
 	.cfi_def_cfa_offset 0
@@ -154,14 +154,14 @@ copyBuff:
 	.type	rx_callback, %function
 rx_callback:
 .LFB5:
-	.loc 1 107 0
+	.loc 1 108 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 8
 	@ frame_needed = 0, uses_anonymous_args = 0
 .LVL3:
-	.loc 1 110 0
+	.loc 1 111 0
 	cbnz	r1, .L24
-	.loc 1 107 0
+	.loc 1 108 0
 	push	{r4, lr}
 	.cfi_def_cfa_offset 8
 	.cfi_offset 4, -8
@@ -169,7 +169,7 @@ rx_callback:
 	sub	sp, sp, #8
 	.cfi_def_cfa_offset 16
 .LBB2:
-	.loc 1 115 0
+	.loc 1 116 0
 	movs	r0, #0
 .LVL4:
 	mov	r1, sp
@@ -177,23 +177,23 @@ rx_callback:
 	mov	r2, r0
 	bl	ENET_DRV_ReadFrame
 .LVL6:
-	.loc 1 116 0
+	.loc 1 117 0
 	cbnz	r0, .L20
 .LVL7:
 .LBB3:
-	.loc 1 126 0
+	.loc 1 127 0
 	ldr	r4, .L25
 	mov	r0, r4
 .LVL8:
 	mov	r1, #2097152
 	bl	PINS_DRV_ClearPins
 .LVL9:
-	.loc 1 127 0
+	.loc 1 128 0
 	mov	r0, r4
 	mov	r1, #4194304
 	bl	PINS_DRV_SetPins
 .LVL10:
-	.loc 1 129 0
+	.loc 1 130 0
 	movs	r0, #0
 	mov	r1, sp
 	bl	ENET_DRV_ProvideRxBuff
@@ -201,7 +201,7 @@ rx_callback:
 .L20:
 .LBE3:
 .LBE2:
-	.loc 1 132 0
+	.loc 1 133 0
 	add	sp, sp, #8
 	.cfi_def_cfa_offset 8
 	@ sp needed
@@ -227,7 +227,7 @@ rx_callback:
 	.type	main, %function
 main:
 .LFB6:
-	.loc 1 141 0
+	.loc 1 142 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 48
 	@ frame_needed = 0, uses_anonymous_args = 0
@@ -239,44 +239,44 @@ main:
 	.cfi_offset 14, -4
 	sub	sp, sp, #56
 	.cfi_def_cfa_offset 72
-	.loc 1 153 0
+	.loc 1 154 0
 	ldr	r0, .L36
 	movs	r1, #1
 	ldr	r2, .L36+4
 	movs	r3, #0
 	bl	CLOCK_SYS_Init
 .LVL13:
-	.loc 1 155 0
+	.loc 1 156 0
 	movs	r0, #0
 	mov	r1, r0
 	bl	CLOCK_SYS_UpdateConfiguration
 .LVL14:
-	.loc 1 158 0
+	.loc 1 159 0
 	ldr	r2, .L36+8
 	ldr	r3, [r2, #32]
 	orr	r3, r3, #33554432
 	str	r3, [r2, #32]
-	.loc 1 163 0
+	.loc 1 164 0
 	movs	r0, #128
 	ldr	r1, .L36+12
 	bl	PINS_DRV_Init
 .LVL15:
-	.loc 1 166 0
+	.loc 1 167 0
 	ldr	r4, .L36+16
 	mov	r0, r4
 	mov	r1, #2097152
 	bl	PINS_DRV_ClearPins
 .LVL16:
-	.loc 1 167 0
+	.loc 1 168 0
 	mov	r0, r4
 	mov	r1, #4194304
 	bl	PINS_DRV_ClearPins
 .LVL17:
-	.loc 1 170 0
+	.loc 1 171 0
 	ldr	r2, .L36+20
 	ldr	r3, .L36+24
 	str	r2, [r3]
-	.loc 1 173 0
+	.loc 1 174 0
 	ldr	r3, .L36+28
 	str	r3, [sp]
 	movs	r0, #0
@@ -285,9 +285,9 @@ main:
 	ldr	r3, .L36+40
 	bl	ENET_DRV_Init
 .LVL18:
-	.loc 1 181 0
+	.loc 1 182 0
 	ldr	r2, .L36+44
-	mov	r3, #2048
+	mov	r3, #1544
 	strh	r3, [r2, #12]	@ movhi
 .LVL19:
 	adds	r2, r2, #13
@@ -334,93 +334,93 @@ main:
 	movs	r0, #0
 	bl	PHY_Init
 .LVL28:
-	.loc 1 223 0
+	.loc 1 227 0
 	ldr	r4, .L36+16
-	.loc 1 250 0
+	.loc 1 254 0
 	ldr	r6, .L36+60
-	.loc 1 256 0
+	.loc 1 260 0
 	ldr	r5, .L36+64
 .L33:
-	.loc 1 215 0
+	.loc 1 219 0
 	movs	r0, #0
 	add	r1, sp, #15
 	bl	PHY_GetLinkStatus
 .LVL29:
-	.loc 1 216 0
+	.loc 1 220 0
 	ldrb	r3, [sp, #15]	@ zero_extendqisi2
 	cbz	r3, .L29
-	.loc 1 218 0
+	.loc 1 222 0
 	mov	r0, r4
 	mov	r1, #2097152
 	bl	PINS_DRV_ClearPins
 .LVL30:
-	.loc 1 219 0
+	.loc 1 223 0
 	mov	r0, r4
 	mov	r1, #4194304
 	bl	PINS_DRV_SetPins
 .LVL31:
 	b	.L30
 .L29:
-	.loc 1 223 0
+	.loc 1 227 0
 	mov	r0, r4
 	mov	r1, #4194304
 	bl	PINS_DRV_ClearPins
 .LVL32:
-	.loc 1 224 0
+	.loc 1 228 0
 	mov	r0, r4
 	mov	r1, #2097152
 	bl	PINS_DRV_SetPins
 .LVL33:
 .L30:
-	.loc 1 228 0
+	.loc 1 232 0
 	ldrb	r3, [sp, #15]	@ zero_extendqisi2
 	cbz	r3, .L31
-	.loc 1 230 0
+	.loc 1 234 0
 	movs	r0, #0
 	add	r1, sp, #48
 	bl	ENET_DRV_SendFrame
 .LVL34:
-	.loc 1 231 0
+	.loc 1 235 0
 	cbz	r0, .L32
-	.loc 1 233 0
+	.loc 1 237 0
 	mov	r0, r4
 .LVL35:
 	mov	r1, #2097152
 	bl	PINS_DRV_SetPins
 .LVL36:
-	.loc 1 234 0
+	.loc 1 238 0
 	mov	r0, r4
 	mov	r1, #4194304
 	bl	PINS_DRV_SetPins
 .LVL37:
 .L32:
-	.loc 1 239 0
+	.loc 1 243 0
 	movs	r0, #0
 	add	r1, sp, #48
 	add	r2, sp, #32
 	bl	ENET_DRV_GetTransmitStatus
 .LVL38:
-	.loc 1 242 0
+	.loc 1 246 0
 	movs	r0, #0
 	add	r1, sp, #40
 	add	r2, sp, #16
 	bl	ENET_DRV_ReadFrame
 .LVL39:
-	.loc 1 244 0
+	.loc 1 248 0
 	cbnz	r0, .L31
-	.loc 1 250 0
+	.loc 1 254 0
 	add	r1, sp, #56
 	ldr	r3, [r1, #-16]!
 	str	r3, [r6]
-	.loc 1 253 0
+	.loc 1 257 0
 	bl	ENET_DRV_ProvideRxBuff
 .LVL40:
 .L31:
-	.loc 1 256 0
+	.loc 1 260 0
 	mov	r0, r5
 	bl	delay
 .LVL41:
-	.loc 1 257 0
+	.loc 1 261 0
 	b	.L33
 .L37:
 	.align	2
@@ -492,10 +492,10 @@ ethMacAddrBroadcast:
 	.file 9 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/enet_driver.h"
 	.file 10 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/phy.h"
 	.file 11 "C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/drivers/inc/pins_driver.h"
-	.file 12 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/clockMan1.h"
-	.file 13 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/ethernet1.h"
-	.file 14 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/phy_cfg.h"
-	.file 15 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/pin_mux.h"
+	.file 12 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/clockMan1.h"
+	.file 13 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/ethernet1.h"
+	.file 14 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/phy_cfg.h"
+	.file 15 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/pin_mux.h"
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
 	.4byte	0x251c
@@ -4239,7 +4239,7 @@ ethMacAddrBroadcast:
 	.uleb128 0x1d
 	.4byte	.LASF12413
 	.byte	0x1
-	.byte	0x60
+	.byte	0x61
 	.4byte	.LFB4
 	.4byte	.LFE4-.LFB4
 	.uleb128 0x1
@@ -4248,34 +4248,34 @@ ethMacAddrBroadcast:
 	.uleb128 0x1f
 	.4byte	.LASF12414
 	.byte	0x1
-	.byte	0x60
+	.byte	0x61
 	.4byte	0x1586
 	.uleb128 0x1
 	.byte	0x50
 	.uleb128 0x1e
 	.ascii	"src\000"
 	.byte	0x1
-	.byte	0x60
+	.byte	0x61
 	.4byte	0x1586
 	.uleb128 0x1
 	.byte	0x51
 	.uleb128 0x1e
 	.ascii	"len\000"
 	.byte	0x1
-	.byte	0x60
+	.byte	0x61
 	.4byte	0xbc
 	.uleb128 0x1
 	.byte	0x54
 	.uleb128 0x20
 	.ascii	"i\000"
 	.byte	0x1
-	.byte	0x62
+	.byte	0x63
 	.4byte	0xbc
 	.byte	0
 	.uleb128 0x1d
 	.4byte	.LASF12415
 	.byte	0x1
-	.byte	0x6a
+	.byte	0x6b
 	.4byte	.LFB5
 	.4byte	.LFE5-.LFB5
 	.uleb128 0x1
@@ -4284,13 +4284,13 @@ ethMacAddrBroadcast:
 	.uleb128 0x21
 	.4byte	.LASF12416
 	.byte	0x1
-	.byte	0x6a
+	.byte	0x6b
 	.4byte	0xa6
 	.4byte	.LLST0
 	.uleb128 0x21
 	.4byte	.LASF12417
 	.byte	0x1
-	.byte	0x6a
+	.byte	0x6b
 	.4byte	0x1638
 	.4byte	.LLST1
 	.uleb128 0x22
@@ -4299,7 +4299,7 @@ ethMacAddrBroadcast:
 	.uleb128 0x23
 	.4byte	.LASF12418
 	.byte	0x1
-	.byte	0x70
+	.byte	0x71
 	.4byte	0x158c
 	.uleb128 0x2
 	.byte	0x91
@@ -4307,7 +4307,7 @@ ethMacAddrBroadcast:
 	.uleb128 0x24
 	.4byte	.LASF12419
 	.byte	0x1
-	.byte	0x71
+	.byte	0x72
 	.4byte	0x940
 	.4byte	.LLST2
 	.uleb128 0x25
@@ -4317,7 +4317,7 @@ ethMacAddrBroadcast:
 	.uleb128 0x24
 	.4byte	.LASF12420
 	.byte	0x1
-	.byte	0x76
+	.byte	0x77
 	.4byte	0x1f76
 	.4byte	.LLST3
 	.uleb128 0x26
@@ -4400,7 +4400,7 @@ ethMacAddrBroadcast:
 	.uleb128 0x29
 	.4byte	.LASF12459
 	.byte	0x1
-	.byte	0x8c
+	.byte	0x8d
 	.4byte	0x8d
 	.4byte	.LFB6
 	.4byte	.LFE6-.LFB6
@@ -4410,7 +4410,7 @@ ethMacAddrBroadcast:
 	.uleb128 0x23
 	.4byte	.LASF12421
 	.byte	0x1
-	.byte	0xaf
+	.byte	0xb0
 	.4byte	0x158c
 	.uleb128 0x2
 	.byte	0x91
@@ -4418,7 +4418,7 @@ ethMacAddrBroadcast:
 	.uleb128 0x23
 	.4byte	.LASF12422
 	.byte	0x1
-	.byte	0xaf
+	.byte	0xb0
 	.4byte	0x158c
 	.uleb128 0x2
 	.byte	0x91
@@ -4426,7 +4426,7 @@ ethMacAddrBroadcast:
 	.uleb128 0x23
 	.4byte	.LASF12423
 	.byte	0x1
-	.byte	0xb0
+	.byte	0xb1
 	.4byte	0x189c
 	.uleb128 0x2
 	.byte	0x91
@@ -4434,7 +4434,7 @@ ethMacAddrBroadcast:
 	.uleb128 0x23
 	.4byte	.LASF12424
 	.byte	0x1
-	.byte	0xb1
+	.byte	0xb2
 	.4byte	0x186c
 	.uleb128 0x2
 	.byte	0x91
@@ -4442,7 +4442,7 @@ ethMacAddrBroadcast:
 	.uleb128 0x2a
 	.ascii	"i\000"
 	.byte	0x1
-	.byte	0xb2
+	.byte	0xb3
 	.4byte	0xa6
 	.4byte	.LLST4
 	.uleb128 0x24
@@ -7036,7 +7036,7 @@ ethMacAddrBroadcast:
 	.byte	0x5
 	.uleb128 0x3
 	.4byte	.LASF360
-	.file 16 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/Cpu.h"
+	.file 16 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/Cpu.h"
 	.byte	0x3
 	.uleb128 0x15
 	.uleb128 0x10
@@ -7411,7 +7411,7 @@ ethMacAddrBroadcast:
 	.uleb128 0x8d4
 	.4byte	.LASF11687
 	.byte	0x4
-	.file 43 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/tja1100_mdio_s32k148/Generated_Code/dmaController1.h"
+	.file 43 "C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code/dmaController1.h"
 	.byte	0x3
 	.uleb128 0x4a
 	.uleb128 0x2b
@@ -50143,9 +50143,6 @@ ethMacAddrBroadcast:
 	.ascii	"STATUS_EEE_ERROR_PROGRAM_INDICATOR\000"
 .LASF9363:
 	.ascii	"S32_SCB_AIRCR_VECTRESET_MASK 0x1u\000"
-.LASF12458:
-	.ascii	"C:\\\\Users\\\\nxf65522\\\\workspaceS32DS.ARM.2018."
-	.ascii	"R1\\\\tja1100_mdio_s32k148\\\\Debug_RAM\000"
 .LASF6621:
 	.ascii	"MCM_LMPECR_ER1BR_MASK 0x100u\000"
 .LASF5995:
@@ -67728,6 +67725,10 @@ ethMacAddrBroadcast:
 	.ascii	"S32_SysTick_CALIB_TENMS_SHIFT 0u\000"
 .LASF3303:
 	.ascii	"ENET_IEEE_R_CRC_COUNT_MASK 0xFFFFu\000"
+.LASF12458:
+	.ascii	"C:\\\\Users\\\\nxf65522\\\\workspaceS32DS.ARM.2018."
+	.ascii	"R1\\\\MDIO_Enet_S32K148\\\\MDIO_Enet_S32K148\\\\Deb"
+	.ascii	"ug_RAM\000"
 .LASF8802:
 	.ascii	"S32_NVIC_IP_PRI122_MASK 0xFFu\000"
 .LASF10603:
