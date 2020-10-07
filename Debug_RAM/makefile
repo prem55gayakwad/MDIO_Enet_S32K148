@@ -40,52 +40,52 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-MDIO_Enet_S32K148.elf \
+MDIO_Enet_S32K148_Updated.elf \
 
 EXECUTABLES_QUOTED += \
-"MDIO_Enet_S32K148.elf" \
+"MDIO_Enet_S32K148_Updated.elf" \
 
 EXECUTABLES_OS_FORMAT += \
-MDIO_Enet_S32K148.elf \
+MDIO_Enet_S32K148_Updated.elf \
 
 SECONDARY_SIZE += \
-MDIO_Enet_S32K148.siz \
-MDIO_Enet_S32K148.siz \
+MDIO_Enet_S32K148_Updated.siz \
+MDIO_Enet_S32K148_Updated.siz \
 
 SECONDARY_SIZE_QUOTED += \
-"MDIO_Enet_S32K148.siz" \
-"MDIO_Enet_S32K148.siz" \
+"MDIO_Enet_S32K148_Updated.siz" \
+"MDIO_Enet_S32K148_Updated.siz" \
 
 SECONDARY_SIZE_OS_FORMAT += \
-MDIO_Enet_S32K148.siz \
-MDIO_Enet_S32K148.siz \
+MDIO_Enet_S32K148_Updated.siz \
+MDIO_Enet_S32K148_Updated.siz \
 
 SECONDARY_SIZE += \
-MDIO_Enet_S32K148.siz \
-MDIO_Enet_S32K148.siz \
+MDIO_Enet_S32K148_Updated.siz \
+MDIO_Enet_S32K148_Updated.siz \
 
 SECONDARY_SIZE_QUOTED += \
-"MDIO_Enet_S32K148.siz" \
-"MDIO_Enet_S32K148.siz" \
+"MDIO_Enet_S32K148_Updated.siz" \
+"MDIO_Enet_S32K148_Updated.siz" \
 
 SECONDARY_SIZE_OS_FORMAT += \
-MDIO_Enet_S32K148.siz \
-MDIO_Enet_S32K148.siz \
+MDIO_Enet_S32K148_Updated.siz \
+MDIO_Enet_S32K148_Updated.siz \
 
 
 # All Target
-all: warning-messages explicit-dependencies MDIO_Enet_S32K148.elf secondary-outputs
+all: warning-messages explicit-dependencies MDIO_Enet_S32K148_Updated.elf secondary-outputs
 
 # Tool invocations
-MDIO_Enet_S32K148.elf: $(OBJS) C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K148/linker/gcc/S32K148_256_ram.ld $(USER_OBJS)
+MDIO_Enet_S32K148_Updated.elf: $(OBJS) C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K148/linker/gcc/S32K148_256_ram.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Executing target #26 $@'
 	@echo 'Invoking: Standard S32DS C Linker'
-	arm-none-eabi-gcc -o "MDIO_Enet_S32K148.elf" "@MDIO_Enet_S32K148.args"  $(USER_OBJS_QUOTED) 
+	arm-none-eabi-gcc -o "MDIO_Enet_S32K148_Updated.elf" "@MDIO_Enet_S32K148_Updated.args"  $(USER_OBJS_QUOTED) 
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-MDIO_Enet_S32K148.siz: $(EXECUTABLES)
+MDIO_Enet_S32K148_Updated.siz: $(EXECUTABLES)
 	@echo 'Executing target #27 $@'
 	@echo 'Invoking: Standard S32DS Print Size'
 	arm-none-eabi-size --format=berkeley $(EXECUTABLES)

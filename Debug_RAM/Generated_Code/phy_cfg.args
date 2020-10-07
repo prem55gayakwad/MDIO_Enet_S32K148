@@ -1,8 +1,8 @@
 -std=c99
 -DCPU_S32K148
 -DDEV_ERROR_DETECT
--I"C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Sources"
--I"C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148/MDIO_Enet_S32K148/Generated_Code"
+-I"C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148_Updated/MDIO_Enet_S32K148_Updated/Sources"
+-I"C:/Users/nxf65522/workspaceS32DS.ARM.2018.R1/MDIO_Enet_S32K148_Updated/MDIO_Enet_S32K148_Updated/Generated_Code"
 -I"C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K148/include"
 -I"C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K148/startup"
 -I"C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K14x_EAR_0.8.6/platform/devices/S32K148"

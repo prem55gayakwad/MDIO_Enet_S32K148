@@ -37,7 +37,7 @@
 							<option id="com.freescale.s32ds.cross.gnu.arm.cortexm.option.target.fpu.unit.119341946" name="FPU Type" superClass="com.freescale.s32ds.cross.gnu.arm.cortexm.option.target.fpu.unit" value="com.freescale.s32ds.cross.gnu.arm.cortexm.option.target.fpu.unit.fpv4spd16" valueType="enumerated"/>
 							<option id="com.freescale.s32ds.cross.gnu.arm.cortexm.option.addtools.printsize.2072256595" name="Print size" superClass="com.freescale.s32ds.cross.gnu.arm.cortexm.option.addtools.printsize" value="true" valueType="boolean"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.989155587" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
-							<builder buildPath="${workspace_loc:/MDIO_Enet_S32K148}/Debug_RAM" id="com.freescale.s32ds.cross.gnu.builder.230196553" keepEnvironmentInBuildfile="false" name="FSL Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.freescale.s32ds.cross.gnu.builder"/>
+							<builder buildPath="${workspace_loc:/MDIO_Enet_S32K148_Updated}/Debug_RAM" id="com.freescale.s32ds.cross.gnu.builder.230196553" keepEnvironmentInBuildfile="false" name="FSL Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.freescale.s32ds.cross.gnu.builder"/>
 							<tool id="com.freescale.s32ds.cross.gnu.arm.cortexm.tool.c.compiler.253999332" name="Standard S32DS C Compiler" superClass="com.freescale.s32ds.cross.gnu.arm.cortexm.tool.c.compiler">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1270522651" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.optimize" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.debugging.level.1090937726" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
@@ -208,7 +208,7 @@
 							<option id="com.freescale.s32ds.cross.gnu.arm.cortexm.option.target.fpu.unit.119341946" name="FPU Type" superClass="com.freescale.s32ds.cross.gnu.arm.cortexm.option.target.fpu.unit" value="com.freescale.s32ds.cross.gnu.arm.cortexm.option.target.fpu.unit.fpv4spd16" valueType="enumerated"/>
 							<option id="com.freescale.s32ds.cross.gnu.arm.cortexm.option.addtools.printsize.2072256595" name="Print size" superClass="com.freescale.s32ds.cross.gnu.arm.cortexm.option.addtools.printsize" value="true" valueType="boolean"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.471770603" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
-							<builder buildPath="${workspace_loc:/MDIO_Enet_S32K148}/Debug_FLASH" id="com.freescale.s32ds.cross.gnu.builder.230196553" keepEnvironmentInBuildfile="false" name="FSL Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.freescale.s32ds.cross.gnu.builder"/>
+							<builder buildPath="${workspace_loc:/MDIO_Enet_S32K148_Updated}/Debug_FLASH" id="com.freescale.s32ds.cross.gnu.builder.230196553" keepEnvironmentInBuildfile="false" name="FSL Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.freescale.s32ds.cross.gnu.builder"/>
 							<tool id="com.freescale.s32ds.cross.gnu.arm.cortexm.tool.c.compiler.253999332" name="Standard S32DS C Compiler" superClass="com.freescale.s32ds.cross.gnu.arm.cortexm.tool.c.compiler">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1270522651" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.optimize" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.debugging.level.1090937726" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
@@ -352,15 +352,15 @@
 		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="MDIO_Enet_S32K148.com.freescale.s32ds.cross.gnu.arm.cortexm.exe.1222612546" name="ARM Executable" projectType="com.freescale.s32ds.cross.gnu.arm.cortexm.exe"/>
+		<project id="MDIO_Enet_S32K148_Updated.com.freescale.s32ds.cross.gnu.arm.cortexm.exe.1222612546" name="ARM Executable" projectType="com.freescale.s32ds.cross.gnu.arm.cortexm.exe"/>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="Debug_FLASH">
-			<resource resourceType="PROJECT" workspacePath="/MDIO_Enet_S32K148"/>
+			<resource resourceType="PROJECT" workspacePath="/MDIO_Enet_S32K148_Updated"/>
 		</configuration>
 		<configuration configurationName="Debug_RAM">
-			<resource resourceType="PROJECT" workspacePath="/MDIO_Enet_S32K148"/>
+			<resource resourceType="PROJECT" workspacePath="/MDIO_Enet_S32K148_Updated"/>
 		</configuration>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
